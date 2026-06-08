@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "Por Procesar",
+    "description": "Solicitudes que están pendientes de procesamiento",
+    "color": "#f39c12",
+    "createdAt": "2026-06-07T00:00:00.000Z",
+    "isSystem": true,
+    "statusFilter": "Pending"
+  },
+  {
+    "id": "2",
+    "name": "Procesadas",
+    "description": "Solicitudes que ya fueron procesadas",
+    "color": "#27ae60",
+    "createdAt": "2026-06-07T00:00:00.000Z",
+    "isSystem": true,
+    "statusFilter": "Processed"
+  },
+  {
+    "id": "3",
+    "name": "Con Error",
+    "description": "Solicitudes que fallaron en el procesamiento",
+    "color": "#e74c3c",
+    "createdAt": "2026-06-07T00:00:00.000Z",
+    "isSystem": true,
+    "statusFilter": "Failed"
+  }
+]

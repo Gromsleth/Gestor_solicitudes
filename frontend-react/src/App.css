@@ -1,0 +1,58 @@
+/* ESTILOS GLOBALES */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Estilos para tablas */
+table {
+  font-size: 14px;
+}
+
+table th, table td {
+  text-align: left;
+}
+
+/* Estilos para botones */
+button {
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  opacity: 0.6;
+}
+
+/* Estilos para inputs */
+input, textarea, select {
+  font-size: 14px;
+  font-family: inherit;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  div[style*="gridTemplateColumns: '1fr 1fr'"] {
+    grid-template-columns: 1fr !important;
+  }
+}
